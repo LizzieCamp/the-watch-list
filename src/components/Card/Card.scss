@@ -1,0 +1,110 @@
+h2 {
+  font-size: 20px;
+  overflow-wrap: break-word;
+}
+h4 {
+  font-size: 16px;
+  word-break: break-all;
+}
+.containers {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  height: 50vh;
+  margin: 10%;
+  background-color: black;
+  background-size: cover;
+  cursor: pointer;
+  box-shadow: 0 0 5px #000;
+  color: black;
+  @media (min-width: 1024px) {
+    width: 182px;
+    height: 268px;
+    object-fit: contain;
+    margin: 50px 50px 50px 5px;
+  }
+}
+
+.overlay {
+  opacity: 0.25;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  background-color: black;
+  transition: all 0.5s;
+  text-align: left;
+  color: white;
+
+  @media (min-width: 1024px) {
+    opacity: 0;
+  }
+}
+
+.items {
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: 1.5px;
+}
+
+.heading {
+  font-size: 24px;
+  //   padding-right: 50px;
+  transform: translateY(40px);
+  transition: all 0.7s;
+  
+
+  hr {
+    display: block;
+    width: 0;
+
+    border: none;
+    border-bottom: solid 2px white;
+
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+
+    transition: all 0.5s;
+  }
+  @media (min-width: 1024px) {
+    opacity: 1;
+    // padding-top: 10%;
+  }
+}
+
+.projectContent {
+  font-weight: bold;
+  opacity: 1;
+  transform: translateY(40px);
+  transition: all 0.7s;
+
+  @media (min-width: 1024px) {
+    font-size: 22px;
+  }
+}
+
+.container:hover .overlay {
+  @media (min-width: 1024px) {
+    opacity: 0.75;
+    & .heading {
+      transform: translateY(0px);
+      padding-bottom: 10px;
+      
+    }
+
+    & hr {
+      width: 81px;
+      transition-delay: 0.4s;
+    }
+
+    & .projectContent {
+      transform: translateY(0px);
+      transition-delay: 0.3s;
+    }
+  }
+}
