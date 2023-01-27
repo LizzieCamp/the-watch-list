@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+
 import { Card } from "./components/Card/Card";
+import { Header } from "./components/Header/Header";
 
 const App = () => {
   type DataType = {
@@ -23,6 +24,8 @@ const App = () => {
     rating: undefined,
   });
 
+  
+
   useEffect(() => {
     Promise.all([
       fetch("http://localhost:4000/api/movies/title?title=lord"),
@@ -30,8 +33,8 @@ const App = () => {
     ]).then(([resMovies, resGenre]) =>
       Promise.all([resMovies.json(), resGenre.json()])
         .then(([dataMovies, dataGenre]) => {
-          setData(dataMovies[3]);
-          setGenre(dataGenre.slice(0, 8));
+          setData(dataMovies.slice(0, 7));
+          setGenre(dataGenre.slice(0, 7));
         })
         .catch((error) => console.log(error))
     );
@@ -46,55 +49,58 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-      <h1> All Movies: </h1>
-      {data && Array.isArray(data) && data.length ? (
-        <div className="containers">
-          {data.map((item, title) => (
+    <div>
+      <Header />
+      <div className="movies">
+        <h2 className="categoryTitle"> All Movies: </h2>
+        {data && Array.isArray(data) && data.length ? (
+          <div className="containers">
+            {data.map((item, title) => (
+              <Card
+                key={title}
+                title={item.title}
+                genre={genreSplit(item)}
+                poster={item.poster}
+                rating={item.rating}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="containers">
             <Card
-              key={title}
-              title={item.title}
-              genre={genreSplit(item)}
-              poster={item.poster}
-              rating={item.rating}
+              key={data.title}
+              title={data.title}
+              poster={data.poster}
+              rating={data.rating}
+              genre={genreSplit(data)}
             />
-          ))}
-        </div>
-      ) : (
-        <div className="containers">
-          <Card
-            key={data.title}
-            title={data.title}
-            poster={data.poster}
-            rating={data.rating}
-            genre={genreSplit(data)}
-          />
-        </div>
-      )}
-      <h1>Comedy:</h1>
-      {genre && Array.isArray(genre) && genre.length ? (
-        <div className="containers">
-          {genre.map((item, title) => (
+          </div>
+        )}
+        <h2 className="categoryTitle">Comedy:</h2>
+        {genre && Array.isArray(genre) && genre.length ? (
+          <div className="containers">
+            {genre.map((item, title) => (
+              <Card
+                key={title}
+                title={item.title}
+                genre={genreSplit(item)}
+                poster={item.poster}
+                rating={item.rating}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="containers">
             <Card
-              key={title}
-              title={item.title}
-              genre={genreSplit(item)}
-              poster={item.poster}
-              rating={item.rating}
+              key={genre.title}
+              title={genre.title}
+              genre={genreSplit(genre)}
+              poster={genre.poster}
+              rating={genre.rating}
             />
-          ))}
-        </div>
-      ) : (
-        <div className="containers">
-          <Card
-            key={genre.title}
-            title={genre.title}
-            genre={genreSplit(genre)}
-            poster={genre.poster}
-            rating={genre.rating}
-          />
-        </div>
-      )}
+          </div>
+        )}
+      </div>
     </div>
   );
 };
