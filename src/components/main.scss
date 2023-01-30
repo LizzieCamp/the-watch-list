@@ -5,9 +5,11 @@ body {
 }
 
 .movies {
-  margin-left: 50px;
+  
+  @media (min-width: 1024px) {
+    margin-left: 50px;
+  }
 }
-
 
 .categoryTitle {
   font-size: 28px;

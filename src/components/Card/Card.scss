@@ -3,6 +3,8 @@ h2 {
   overflow-wrap: break-word;
 }
 h4 {
+  margin: 0;
+  margin-top: 5px;
   font-size: 16px;
   word-break: break-all;
 }
@@ -20,16 +22,16 @@ h4 {
   cursor: pointer;
   box-shadow: 0 0 5px #000;
   color: white;
+  width: 182px;
+  height: 268px;
   @media (min-width: 1024px) {
-    width: 182px;
-    height: 268px;
     object-fit: contain;
     margin: 50px 50px 50px 5px;
   }
 }
 
 .overlay {
-  opacity: 0.25;
+  opacity: 0.65;
   width: 100%;
   height: 100%;
   display: grid;
@@ -56,7 +58,6 @@ h4 {
   //   padding-right: 50px;
   transform: translateY(40px);
   transition: all 0.7s;
-  
 
   hr {
     display: block;
@@ -94,7 +95,6 @@ h4 {
     & .heading {
       transform: translateY(0px);
       padding-bottom: 10px;
-      
     }
 
     & hr {
