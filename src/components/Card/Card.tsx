@@ -1,3 +1,4 @@
+import ImageToggler from "../../ImageToggler";
 import "../styles";
 
 interface Movie {
@@ -28,6 +29,10 @@ export const Card = (props: Movie) => {
               })
             : ""}
           <h4>{props.rating}</h4>
+          <ImageToggler
+            firstImage={"heart-outline.png"}
+            secondImage={"heart-filled.png"}
+          />
         </div>
       </div>
     </div>
