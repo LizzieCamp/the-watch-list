@@ -1,7 +1,7 @@
 import ImageToggler from "../../ImageToggler";
 import "../styles";
 
-interface Movie {
+export interface Movie {
   title: string | undefined;
   genre: string | undefined | String[];
   poster: string | undefined;

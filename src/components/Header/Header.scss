@@ -1,6 +1,6 @@
 .headerBox {
   height: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 10px;
   margin-top: 10px;
   display: flex;
   justify-content: center;
@@ -65,7 +65,7 @@ h1 {
   outline: none;
   float: left;
   padding-left: 25px;
-  color: white;
+  color: black;
   font-size: 16px;
   font-weight: normal;
   transition: 0.4s;
@@ -76,4 +76,21 @@ h1 {
     width: 0;
     padding: 0;
   }
+}
+
+.test {
+  display: flex;
+  align-items: center;
+  width: 75vw;
+  justify-content: space-between;
+
+  a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
+}
+
+.genreHeader {
+  margin-right: 20px;
 }
