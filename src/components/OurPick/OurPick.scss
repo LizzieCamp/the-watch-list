@@ -1,0 +1,26 @@
+.ourPickContainer {
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+  background-color: white;
+  color: black;
+
+  h1 {
+    width: 300px;
+  }
+}
+
+.genres {
+  display: flex;
+//   justify-content: space-between;
+}
+
+.infoContainer {
+  margin-right: 50px;
+}
+
+.genreType {
+  padding-left: 15px;
+}
