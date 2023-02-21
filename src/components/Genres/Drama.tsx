@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { DataType, renderGenre } from "../../App";
+import { Carousel } from "./Slider";
 
 export const Drama = () => {
   const [drama, setDramaGenre] = useState<DataType>({
@@ -15,7 +16,7 @@ export const Drama = () => {
         resDramaGenre
           .json()
           .then((dataDramaGenre) => {
-            setDramaGenre(dataDramaGenre.slice(0, 14));
+            setDramaGenre(dataDramaGenre);
           })
           .catch((error) => console.log(error))
     );
@@ -24,7 +25,11 @@ export const Drama = () => {
   return (
     <div id="drama">
       <h2 className="categoryTitle">Drama:</h2>
-      {renderGenre("Drama", drama)}
+      {Array.isArray(drama) && drama.length ? (
+        <Carousel genre={drama} genreTitle="Drama" />
+      ) : (
+        <div>{renderGenre("Drama", drama)}</div>
+      )}
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { DataType, renderGenre } from "../../App";
+import { Carousel } from "./Slider";
 
 export const Horror = () => {
   const [horror, setHorrorGenre] = useState<DataType>({
@@ -15,17 +16,19 @@ export const Horror = () => {
         resHorrorGenre
           .json()
           .then((dataHorrorGenre) => {
-            setHorrorGenre(dataHorrorGenre.slice(0, 14));
+            setHorrorGenre(dataHorrorGenre);
           })
           .catch((error) => console.log(error))
     );
   }, []);
   return (
-    <div>
-      <h2 id="horror" className="categoryTitle">
-        Horror:
-      </h2>
-      {renderGenre("Horror", horror)}
+    <div id="horror">
+      <h2 className="categoryTitle">Horror:</h2>
+      {Array.isArray(horror) && horror.length ? (
+        <Carousel genre={horror} genreTitle="Horror" />
+      ) : (
+        <div>{renderGenre("Horror", horror)}</div>
+      )}
     </div>
   );
 };
