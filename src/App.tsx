@@ -1,10 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { Card } from "./components/Card/Card";
 import { Dropdown } from "./components/Dropdown/Dropdown";
+import { Action } from "./components/Genres/Action";
+import { Adventure } from "./components/Genres/Adventure";
 import { Crime } from "./components/Genres/Crime";
+import { Documentary } from "./components/Genres/Documentary";
 import { Drama } from "./components/Genres/Drama";
+import { Family } from "./components/Genres/Family";
 import { Horror } from "./components/Genres/Horror";
+import { Mystery } from "./components/Genres/Mystery";
+import { Romance } from "./components/Genres/Romance";
+import { Short } from "./components/Genres/Short";
 import { Thriller } from "./components/Genres/Thriller";
+import { Western } from "./components/Genres/Western";
 import { Header } from "./components/Header/Header";
 import { OurPick } from "./components/OurPick/OurPick";
 
@@ -24,6 +32,11 @@ export const genreSplit = (blob: DataType) => {
 };
 
 export const renderGenre = (genre: any, genreData: any) => {
+  const settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 7,
+  };
   return (
     <div className="containers">
       {Array.isArray(genreData) && genreData.length ? (
@@ -105,8 +118,27 @@ const App = () => {
     }
   };
 
+  const btn = document.querySelector("#backToTop");
+
+  window.addEventListener("scroll", () => {
+    if (btn) {
+      if (window.scrollY > 300) {
+        btn.classList.add("show");
+      } else {
+        btn.classList.remove("show");
+      }
+    }
+  });
+  if (btn) {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
   return (
     <div>
+      <a id="backToTop"></a>
       <Header search={search} query={query} setQuery={setQuery} />
 
       <div className="movies">
@@ -177,6 +209,14 @@ const App = () => {
           <Horror />
           <Thriller />
           <Crime />
+          <Short />
+          <Family />
+          <Mystery />
+          <Romance />
+          <Western />
+          <Action />
+          <Documentary />
+          <Adventure />
         </div>
       </div>
     </div>

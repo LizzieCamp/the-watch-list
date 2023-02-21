@@ -6,7 +6,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  background-color: black;
   @media (min-width: 1024px) {
     justify-content: space-between;
     flex-direction: row;
