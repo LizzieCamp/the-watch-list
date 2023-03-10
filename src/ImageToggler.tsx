@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 
-interface ImageTogglerProps {
+type ImageTogglerProps = {
   firstImage: string;
   secondImage: string;
-}
+};
 
-const ImageToggler: React.FC<ImageTogglerProps> = ({
-  firstImage,
-  secondImage,
-}) => {
+const ImageToggler = (props: ImageTogglerProps) => {
   const [showFirstImage, setShowFirstImage] = useState(true);
 
   const toggleImage = () => {
@@ -17,7 +14,7 @@ const ImageToggler: React.FC<ImageTogglerProps> = ({
 
   return (
     <img
-      src={showFirstImage ? firstImage : secondImage}
+      src={showFirstImage ? props.firstImage : props.secondImage}
       onClick={toggleImage}
     />
   );

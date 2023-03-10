@@ -5,13 +5,10 @@ export const Dropdown = () => {
       href: "#crime",
     },
     {
-        genre: "Thriller",
-        href: "#thriller",
+      genre: "Thriller",
+      href: "#thriller",
     },
-    {
-      genre: "Short",
-      href: "#short",
-    },
+
     {
       genre: "Family",
       href: "#family",
@@ -24,10 +21,7 @@ export const Dropdown = () => {
       genre: "Romance",
       href: "#romance",
     },
-    {
-      genre: "Western",
-      href: "#western",
-    },
+
     {
       genre: "Adventure",
       href: "#adventure",
@@ -35,10 +29,6 @@ export const Dropdown = () => {
     {
       genre: "Action",
       href: "#action",
-    },
-    {
-      genre: "Documentary",
-      href: "#documentary",
     },
   ];
 
@@ -49,7 +39,9 @@ export const Dropdown = () => {
         <div className="dropdown-content">
           <div className="genreDropdowns">
             {genres.map((genre, i) => (
-              <a href={genre.href}>{genre.genre}</a>
+              <a key={i} href={genre.href}>
+                {genre.genre}
+              </a>
             ))}
             {/* <a href="#drama">Drama</a>
             <a href="#horror">Horror</a>

@@ -5,8 +5,8 @@ import "../styles";
 export const Header = (props: any) => {
   return (
     <div className="headerBox">
-      <div className="test">
         <h1>THE WATCH LIST</h1>
+      <div className="test">
         <a className="genreHeader" href="#animation">
           Animation
         </a>
@@ -22,8 +22,8 @@ export const Header = (props: any) => {
         <a className="genreHeader" href="#scifi">
           Sci-Fi
         </a>
-        <Dropdown />
       </div>
+        <Dropdown />
       <div className="search-box">
         <input
           id="search-bar"

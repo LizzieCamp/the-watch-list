@@ -11,7 +11,11 @@ export const OurPick = (props: Movie) => {
           {props.genre && Array.isArray(props.genre)
             ? props.genre.map((value, i) => {
                 {
-                  return <h3 className="genreType">{value} </h3>;
+                  return (
+                    <h3 key={i} className="genreType">
+                      {value}{" "}
+                    </h3>
+                  );
                 }
               })
             : ""}

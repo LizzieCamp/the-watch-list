@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { DataType, renderGenre } from "../../App";
+import { addFavouriteProps } from "./Adventure";
 import { Carousel } from "./Slider";
 
-export const Crime = () => {
+export const Crime = ({ addFavourites }: addFavouriteProps) => {
   const [crime, setCrimeGenre] = useState<DataType>({
     title: undefined,
     genre: undefined,
@@ -26,9 +27,13 @@ export const Crime = () => {
     <div id="crime">
       <h2 className="categoryTitle">Crime:</h2>
       {Array.isArray(crime) && crime.length ? (
-        <Carousel genre={crime} genreTitle="Crime" />
+        <Carousel
+          genre={crime}
+          genreTitle="Crime"
+          addFavourites={addFavourites}
+        />
       ) : (
-        <div>{renderGenre("Crime", crime)}</div>
+        <div>{renderGenre("Crime", crime, addFavourites)}</div>
       )}
     </div>
   );

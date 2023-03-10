@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { DataType, renderGenre } from "../../App";
+import { addFavouriteProps } from "./Adventure";
 
-export const Western = () => {
+export const Western = ({ addFavourites }: addFavouriteProps) => {
   const [western, setWesternGenre] = useState<DataType>({
     title: undefined,
     genre: undefined,
@@ -24,7 +25,7 @@ export const Western = () => {
   return (
     <div id="western">
       <h2 className="categoryTitle">Western:</h2>
-      {renderGenre("Western", western)}
+      {renderGenre("Western", western, addFavourites)}
     </div>
   );
 };

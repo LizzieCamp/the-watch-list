@@ -11,7 +11,9 @@ h4 {
 .containers {
   justify-content: center;
   display: flex;
-  flex-wrap: wrap;
+  @media (min-width: 1024px) {
+    flex-wrap: wrap;
+  }
 }
 
 .container {

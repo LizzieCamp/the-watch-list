@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { DataType, renderGenre } from "../../App";
+import { addFavouriteProps } from "./Adventure";
 
-export const Short = () => {
+export const Short = ({ addFavourites }: addFavouriteProps) => {
   const [short, setShortGenre] = useState<DataType>({
     title: undefined,
     genre: undefined,
@@ -24,7 +25,7 @@ export const Short = () => {
   return (
     <div id="short">
       <h2 className="categoryTitle">Short:</h2>
-      {renderGenre("Short", short)}
+      {renderGenre("Short", short, addFavourites)}
     </div>
   );
 };

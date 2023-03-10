@@ -6,19 +6,26 @@
   padding-bottom: 15px;
   background-color: white;
   color: black;
+  flex-wrap: wrap;
 
-  h1 {
-    width: 300px;
+  @media (min-width: 1024px) {
+    flex-wrap: none;
+
+    h1 {
+      width: 300px;
+    }
   }
 }
 
 .genres {
   display: flex;
-//   justify-content: space-between;
+  //   justify-content: space-between;
 }
 
 .infoContainer {
-  margin-right: 50px;
+  @media (min-width: 1024px) {
+    margin-right: 50px;
+  }
 }
 
 .genreType {

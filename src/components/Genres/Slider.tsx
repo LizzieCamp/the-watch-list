@@ -7,6 +7,7 @@ import "../styles";
 export interface Props {
   genre: DataType[];
   genreTitle: string;
+  addFavourites: (item: DataType) => void;
 }
 
 export const Carousel = (props: Props) => {
@@ -14,13 +15,29 @@ export const Carousel = (props: Props) => {
     infinite: true,
     speed: 200,
     slidesToShow: 7,
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+    ],
   };
 
   return (
     <div className="testingThis">
       <Slider {...settings}>
         {props.genre.map((item: DataType) => (
-          <div key={item.title}>{renderGenre(props.genreTitle, item)}</div>
+          <div key={item.title}>
+            {renderGenre(props.genreTitle, item, props.addFavourites)}
+          </div>
         ))}
       </Slider>
     </div>
