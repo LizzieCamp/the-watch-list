@@ -43,17 +43,6 @@ export const Dropdown = () => {
                 {genre.genre}
               </a>
             ))}
-            {/* <a href="#drama">Drama</a>
-            <a href="#horror">Horror</a>
-            <a href="#thriller">Thriller</a>
-            <a href="#crime">Crime</a>
-          </div>
-          <div className="genreDropdowns">
-            <a href="#drama">Drama</a>
-            <a href="#horror">Horror</a>
-            <a href="#thriller">Thriller</a>
-            <a href="#crime">Crime</a>
-          </div> */}
           </div>
         </div>
       </div>
