@@ -1,5 +1,10 @@
 .navbar {
   overflow: hidden;
+  margin-top: 15px;
+
+  @media (min-width: 1024px) {
+    margin-top: 0;
+  }
 }
 
 .dropdown {
