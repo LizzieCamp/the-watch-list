@@ -1,0 +1,15 @@
+// import { ButtonProps } from "./App";
+
+// function Button1({ onButtonClick }: ButtonProps) {
+//   function handleClick() {
+//     onButtonClick();
+//   }
+
+//   return (
+//     <div>
+//       <button onClick={handleClick}>Button 1</button>
+//     </div>
+//   );
+// }
+
+// export default Button1;

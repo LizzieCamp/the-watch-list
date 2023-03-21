@@ -7,7 +7,10 @@ import "../styles";
 export interface Props {
   genre: DataType[];
   genreTitle: string;
-  addFavourites: (item: DataType) => void;
+  toggleFavourite: any;
+  handleButtonClick: any;
+  button2Value: any;
+  // addFavourites: (item: DataType) => void;
 }
 
 export const Carousel = (props: Props) => {
@@ -19,14 +22,14 @@ export const Carousel = (props: Props) => {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 4
-        }
+          slidesToShow: 4,
+        },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2
-        }
+          slidesToShow: 2,
+        },
       },
     ],
   };
@@ -36,7 +39,13 @@ export const Carousel = (props: Props) => {
       <Slider {...settings}>
         {props.genre.map((item: DataType) => (
           <div key={item.title}>
-            {renderGenre(props.genreTitle, item, props.addFavourites)}
+            {renderGenre(
+              props.genreTitle,
+              item,
+              props.toggleFavourite,
+              props.handleButtonClick,
+              props.button2Value
+            )}
           </div>
         ))}
       </Slider>

@@ -1,24 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Card } from "./components/Card/Card";
-import { Dropdown } from "./components/Dropdown/Dropdown";
-import { Action } from "./components/Genres/Action";
-import { Adventure } from "./components/Genres/Adventure";
-import { Comedy } from "./components/Genres/Comedy";
-import { Crime } from "./components/Genres/Crime";
-import { Documentary } from "./components/Genres/Documentary";
-import { Drama } from "./components/Genres/Drama";
-import { Family } from "./components/Genres/Family";
-import { Horror } from "./components/Genres/Horror";
-import { Mystery } from "./components/Genres/Mystery";
-import { Romance } from "./components/Genres/Romance";
-import { Short } from "./components/Genres/Short";
-import { Thriller } from "./components/Genres/Thriller";
-import { Western } from "./components/Genres/Western";
+import { Card, Movie } from "./components/Card/Card";
 import { Header } from "./components/Header/Header";
 import { OurPick } from "./components/OurPick/OurPick";
-import { Animation } from "./components/Genres/Animation";
-import { SciFi } from "./components/Genres/Sci-Fi";
 import { Carousel } from "./components/Genres/Slider";
+import MovieCard from "./MovieCard";
 
 export type DataType = {
   title: string | undefined;
@@ -38,7 +23,9 @@ export const genreSplit = (blob: DataType) => {
 export const renderGenre = (
   genre: any,
   genreData: any,
-  addFavourites: (movie: DataType) => void
+  toggleFavourite: any,
+  handleButtonClick: any,
+  button2Value: any
 ) => {
   const settings = {
     infinite: true,
@@ -50,23 +37,19 @@ export const renderGenre = (
     <div className="containers">
       {Array.isArray(genreData) && genreData.length ? (
         genreData.map((item) => (
-          <Card
-            key={item._id}
-            title={item.title}
-            genre={genreSplit(item)}
-            poster={item.poster}
-            rating={item.rating}
-            button={() => addFavourites(item)}
+          <MovieCard
+            movie={item}
+            onFavouriteClick={toggleFavourite}
+            onButtonClick={handleButtonClick}
+            value={button2Value}
           />
         ))
       ) : (
-        <Card
-          key={genreData.title}
-          title={genreData.title}
-          genre={genreSplit(genreData)}
-          poster={genreData.poster}
-          rating={genreData.rating}
-          button={() => addFavourites(genreData)}
+        <MovieCard
+          movie={genreData}
+          onFavouriteClick={toggleFavourite}
+          onButtonClick={handleButtonClick}
+          value={button2Value}
         />
       )}
     </div>
@@ -93,7 +76,7 @@ const App = () => {
     rating: undefined,
   });
 
-  const [favourites, setFavourites] = useState<DataType[]>([]);
+  const [favourites, setFavourites] = useState<Movie[]>([]);
 
   const [query, setQuery] = useState("");
 
@@ -149,119 +132,83 @@ const App = () => {
     });
   }
 
-  const addFavourites = (movie: DataType) => {
-    if (favourites) {
-      if (!favourites.includes(movie)) {
-        setFavourites([...favourites, movie]);
-      } else {
-        setFavourites([...favourites.filter((item) => item !== movie)]);
-      }
+  const toggleFavourite = (movie: Movie) => {
+    const index = favourites.findIndex((f) => f.title === movie.title);
+    if (index === -1) {
+      setFavourites([...favourites, movie]);
+    } else {
+      const newFavourites = [...favourites];
+      newFavourites.splice(index, 1);
+      setFavourites(newFavourites);
     }
-    console.log(favourites);
   };
+
+  type ButtonProps = {
+    value?: string;
+    onButtonClick: () => void;
+  };
+
+  const [button2Value, setButton2Value] = useState("heart-outline.png");
+
+  function handleButtonClick() {
+    setButton2Value(
+      button2Value === "heart-outline.png"
+        ? "heart-filled.png"
+        : "heart-outline.png"
+    );
+  }
+
+  
 
   return (
     <div>
       <a id="backToTop"></a>
       <Header search={search} query={query} setQuery={setQuery} />
 
-      <div className="movies">
-        <div id="searched-section" style={{ display: "none" }}>
-          <h2> SEARCHED </h2>
-          {searched && Array.isArray(searched) && searched.length ? (
-            <div className="containers">
-              {searched.map((item) => (
-                <Card
-                  key={item.title}
-                  title={item.title}
-                  genre={genreSplit(item)}
-                  poster={item.poster}
-                  rating={item.rating}
-                  button={() => addFavourites(item)}
-                />
-              ))}
-            </div>
-          ) : (
-            <div className="containers">
-              <Card
-                key={searched.title}
-                title={searched.title}
-                poster={searched.poster}
-                rating={searched.rating}
-                genre={genreSplit(searched)}
+      <div className="movies"></div>
+      <div className="yourListContainer">
+        <h2 className="categoryTitle"> Your Watch List: </h2>
+        {favourites.length >= 1 ? (
+          <div className="containers">
+            {favourites.map((movie) => (
+              <MovieCard
+                movie={movie}
+                onFavouriteClick={toggleFavourite}
+                onButtonClick={handleButtonClick}
+                value={button2Value}
               />
-            </div>
-          )}
-        </div>
-        <div id="content-section" style={{ display: "block" }}>
-          <div className="movieDay">
-            <h2 className="categoryTitle"> Our top pick:</h2>
-            <OurPick
-              key={ourPick.title}
-              title={ourPick.title}
-              poster={ourPick.poster}
-              rating={ourPick.rating}
-              genre={genreSplit(ourPick)}
+            ))}
+          </div>
+        ) : (
+          <div>
+            <p>You have not added anything to your Watch List yet. </p>
+            <p>To add a movie, click the ♡ icon. </p>
+          </div>
+        )}
+      </div>
+      <div>
+        <h2 className="categoryTitle"> All Movies: </h2>
+        {data && Array.isArray(data) && data.length ? (
+          <div>
+            <Carousel
+              genre={data}
+              genreTitle="Crime"
+              toggleFavourite={toggleFavourite}
+              handleButtonClick={handleButtonClick}
+              button2Value={button2Value}
             />
           </div>
-          <div className="yourListContainer">
-            <h2 className="categoryTitle"> Your Watch List: </h2>
-            {favourites.length >= 1 ? (
-              <div className="containers">
-                {favourites.map((item) => (
-                  <Card
-                    key={item.title}
-                    title={item.title}
-                    genre={genreSplit(item)}
-                    poster={item.poster}
-                    rating={item.rating}
-                    button={() => addFavourites(item)}
-                  />
-                ))}
-              </div>
-            ) : (
-              <div>
-                <p>You have not added anything to your Watch List yet. </p>
-                <p>To add a movie, click the ♡ icon. </p>
-              </div>
-            )}
+        ) : (
+          <div className="containers">
+            <Card
+              key={data.title}
+              title={data.title}
+              poster={data.poster}
+              rating={data.rating}
+              genre={genreSplit(data)}
+            />
           </div>
-          <div>
-            <h2 className="categoryTitle"> All Movies: </h2>
-            {data && Array.isArray(data) && data.length ? (
-              <Carousel
-                genre={data}
-                genreTitle="Crime"
-                addFavourites={addFavourites}
-              />
-            ) : (
-              <div className="containers">
-                <Card
-                  key={data.title}
-                  title={data.title}
-                  poster={data.poster}
-                  rating={data.rating}
-                  genre={genreSplit(data)}
-                />
-              </div>
-            )}
-          </div>
-          <Drama addFavourites={addFavourites} />
-          <Horror addFavourites={addFavourites} />
-          <Thriller addFavourites={addFavourites} />
-          <Crime addFavourites={addFavourites} />
-          
-          <Family addFavourites={addFavourites} />
-          <Mystery addFavourites={addFavourites} />
-          <Romance addFavourites={addFavourites} />
-         
-          <Action addFavourites={addFavourites} />
-        
-          <Adventure addFavourites={addFavourites} />
-          <Comedy addFavourites={addFavourites} />
-          <Animation addFavourites={addFavourites} />
-          <SciFi addFavourites={addFavourites} />
-        </div>
+        )}
       </div>
     </div>
   );

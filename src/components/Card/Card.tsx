@@ -2,11 +2,12 @@ import ImageToggler from "../../ImageToggler";
 import "../styles";
 
 export interface Movie {
-  button?: () => void;
+  // button?: () => void;
   title: string | undefined;
   genre: string | undefined | String[];
   poster: string | undefined;
   rating: string | undefined;
+  movieCard?: JSX.Element;
 }
 
 export const Card = (props: Movie) => {
@@ -30,12 +31,7 @@ export const Card = (props: Movie) => {
               })
             : ""}
           <h4>{props.rating}</h4>
-          <div className="heartButton" onClick={() => props.button!()}>
-            <ImageToggler
-              firstImage={"heart-outline.png"}
-              secondImage={"heart-filled.png"}
-            />
-          </div>
+          {props.movieCard}
         </div>
       </div>
     </div>

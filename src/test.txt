@@ -1,0 +1,25 @@
+import React, { useState } from "react";
+import Button1 from "./ButtonOne";
+import Button2 from "./ButtonTwo";
+
+export type ButtonProps = {
+  value?: string;
+  onButtonClick: () => void;
+};
+
+function App() {
+  const [button2Value, setButton2Value] = useState("heart-outline.png");
+
+  function handleButtonClick() {
+    setButton2Value(button2Value === "heart-outline.png" ? "heart-filled.png" : "heart-outline.png");
+  }
+
+  return (
+    <div>
+      <Button1 onButtonClick={handleButtonClick} />
+      <Button2 value={button2Value} onButtonClick={handleButtonClick} />
+    </div>
+  );
+}
+
+export default App;
