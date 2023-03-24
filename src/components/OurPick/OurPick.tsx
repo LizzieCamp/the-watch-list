@@ -1,15 +1,15 @@
 import { Movie } from "../Card/Card";
 import "../styles";
 
-export const OurPick = (props: Movie) => {
+export const OurPick = ({ movie }: any) => {
   return (
     <div className="ourPickContainer">
       <div className="infoContainer">
-        <h1>{props.title}</h1>
+        <h1>{movie.title}</h1>
         <div className="genres">
           <h3>Genres:</h3>
-          {props.genre && Array.isArray(props.genre)
-            ? props.genre.map((value, i) => {
+          {movie.genre && Array.isArray(movie.genre)
+            ? movie.genre.map((value: any, i: any) => {
                 {
                   return (
                     <h3 key={i} className="genreType">
@@ -21,11 +21,11 @@ export const OurPick = (props: Movie) => {
             : ""}
         </div>
 
-        <h3>IMDB Rating: {props.rating}</h3>
+        <h3>IMDB Rating: {movie.rating}</h3>
       </div>
 
       <div>
-        <img src={props.poster} />
+        <img src={movie.poster} />
       </div>
     </div>
   );

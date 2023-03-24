@@ -1,13 +1,15 @@
-import { DataType, renderGenre } from "../../App";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "../styles";
+import "./styles";
+import { renderGenre } from "./renderGenre";
+import { DataType } from "../types";
 
 export interface Props {
   genre: DataType[];
-  genreTitle: string;
-  addFavourites: (item: DataType) => void;
+  button?: any;
+  message: string;
+  
 }
 
 export const Carousel = (props: Props) => {
@@ -19,14 +21,14 @@ export const Carousel = (props: Props) => {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 4
-        }
+          slidesToShow: 4,
+        },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2
-        }
+          slidesToShow: 2,
+        },
       },
     ],
   };
@@ -35,9 +37,7 @@ export const Carousel = (props: Props) => {
     <div className="testingThis">
       <Slider {...settings}>
         {props.genre.map((item: DataType) => (
-          <div key={item.title}>
-            {renderGenre(props.genreTitle, item, props.addFavourites)}
-          </div>
+          <div key={item.title}>{renderGenre(item, props.button, props.message)}</div>
         ))}
       </Slider>
     </div>

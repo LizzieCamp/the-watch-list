@@ -1,41 +1,42 @@
-import ImageToggler from "../../ImageToggler";
+import { DataType } from "../../types";
+import ImageToggler from "../ImageToggler";
 import "../styles";
 
 export interface Movie {
-  button?: () => void;
+  button?: (a: any) => void;
   title: string | undefined;
   genre: string | undefined | String[];
   poster: string | undefined;
   rating: string | undefined;
+  message?: string;
 }
 
-export const Card = (props: Movie) => {
+export const Card = ({
+  button,
+  title,
+  genre,
+  poster,
+  rating,
+  message,
+}: Movie) => {
   return (
-    <div
-      className="container"
-      style={{ backgroundImage: `url(${props.poster})` }}
-    >
+    <div className="container" style={{ backgroundImage: `url(${poster})` }}>
       <div className="overlay">
         <div className="items heading">
-          <h2>{props.title}</h2>
+          <h2>{title}</h2>
 
           <hr />
         </div>
         <div className="items projectContent">
-          {props.genre && Array.isArray(props.genre)
-            ? props.genre.map((value, i) => {
+          {genre && Array.isArray(genre)
+            ? genre.map((value, i) => {
                 {
                   return <h4 key={i}>{value}</h4>;
                 }
               })
             : ""}
-          <h4>{props.rating}</h4>
-          <div className="heartButton" onClick={() => props.button!()}>
-            <ImageToggler
-              firstImage={"heart-outline.png"}
-              secondImage={"heart-filled.png"}
-            />
-          </div>
+          <h4>{rating}</h4>
+          <button onClick={button}>{message}</button>
         </div>
       </div>
     </div>
