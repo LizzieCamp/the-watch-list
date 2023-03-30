@@ -9,14 +9,14 @@
 - [Notes](#notes)
 
 ## Installation
----
+
 
 You can install this repo by cloning and running:
 ```
 npm install
 ```
 ## Usage
----
+
 
 You can run this project by running:
 ```
@@ -26,7 +26,7 @@ This runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Technology Used
----
+
 - TypeScript
 - React
 - Express
