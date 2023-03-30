@@ -1,13 +1,5 @@
 # The Watch List
 
-# Table of Contents
-
-- [Installation](#Installation)
-- [Usage](#Usage)
-- [Technology Used](#technology-used)
-- [API Used](#api-used)
-- [Notes](#notes)
-
 ## Technology Used
 
 - TypeScript
