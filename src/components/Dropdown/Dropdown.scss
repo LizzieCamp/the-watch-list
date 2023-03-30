@@ -1,4 +1,6 @@
 .navbar {
+  display: flex;
+  justify-content: center;
   overflow: hidden;
   margin-top: 15px;
 
@@ -43,4 +45,23 @@
   display: flex;
   flex-wrap: wrap;
   width: 250px;
+}
+
+.dropbtn {
+  padding: 5px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  border-radius: 10%;
+
+  p {
+    margin: 0;
+  }
+
+  @media (min-width: 1024px) {
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+  }
 }

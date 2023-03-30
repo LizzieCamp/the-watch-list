@@ -4,60 +4,24 @@ body {
   font-family: sans-serif;
 }
 
-.movies {
-  @media (min-width: 1024px) {
-    margin-left: 50px;
-  }
-}
-
 .categoryTitle {
   font-size: 28px;
 }
 
-html {
-  scroll-padding-top: 100px;
-}
-
-#backToTop {
-  display: inline-block;
-  background-color: white;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1;
-}
-#backToTop::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: black;
-}
-
-#backToTop:hover {
-  cursor: pointer;
-}
-
-#backToTop.show {
-  opacity: 1;
-  visibility: visible;
-}
-
-.testingThis {
+.carousel {
   .slick-next {
     right: -5px;
   }
   .slick-prev {
     left: -5px;
+  }
+
+  @media (min-width: 1024px) {
+    margin-left: 25px;
+
+    .slick-prev {
+      left: -20px;
+    }
   }
 }
 
@@ -69,8 +33,26 @@ html {
 
 h1 {
   font-size: 24px;
-
+  text-align: center;
   @media (min-width: 1024px) {
     font-size: 42px;
+    text-align: unset;
   }
+}
+
+#content-section {
+  padding-top: 20px;
+}
+
+h2 {
+  overflow-wrap: break-word;
+  font-size: 16px;
+  @media (min-width: 1024px) {
+    font-size: 20px;
+  }
+}
+h4 {
+  margin: 5px 0 0 0;
+  font-size: 16px;
+  word-break: break-all;
 }

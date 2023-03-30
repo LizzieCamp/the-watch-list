@@ -1,41 +1,43 @@
 export const Dropdown = () => {
   const genres = [
     {
+      genre: "Romance",
+      href: "#Romance",
+    },
+    {
       genre: "Crime",
-      href: "#crime",
+      href: "#Crime",
+    },
+    {
+      genre: "Mystery",
+      href: "#Mystery",
     },
     {
       genre: "Thriller",
-      href: "#thriller",
+      href: "#Thriller",
     },
 
     {
       genre: "Family",
-      href: "#family",
-    },
-    {
-      genre: "Mystery",
-      href: "#mystery",
-    },
-    {
-      genre: "Romance",
-      href: "#romance",
+      href: "#Family",
     },
 
     {
-      genre: "Adventure",
-      href: "#adventure",
+      genre: "Action",
+      href: "#Action",
     },
     {
-      genre: "Action",
-      href: "#action",
+      genre: "Adventure",
+      href: "#Adventure",
     },
   ];
 
   return (
     <div className="navbar">
       <div className="dropdown">
-        <a className="dropbtn">More Genres</a>
+        <button className="dropbtn">
+          <p>More Genres</p>
+        </button>
         <div className="dropdown-content">
           <div className="genreDropdowns">
             {genres.map((genre, i) => (
