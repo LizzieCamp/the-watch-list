@@ -31,7 +31,7 @@ export const WatchList = ({
       ) : (
         <div>
           <p>You have not added anything to your Watch List yet. </p>
-          <p>To add a movie, click the ♡ icon. </p>
+          <p>To add a movie, click the Favourite button. </p>
         </div>
       )}
     </div>
