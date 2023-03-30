@@ -34,7 +34,7 @@ export const Carousel = (props: Props) => {
   };
 
   return (
-    <div className="testingThis">
+    <div className="carousel">
       <Slider {...settings}>
         {props.genre.map((item: DataType) => (
           <div key={item.title}>{renderGenre(item, props.button, props.message)}</div>

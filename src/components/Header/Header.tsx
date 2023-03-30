@@ -30,23 +30,13 @@ export const Header = (props: any) => {
   return (
     <div>
       <div className="headerBox">
-        <div className="test">
+        <div className="headerGenres">
           <h1>THE WATCH LIST</h1>
-          <a className="genreHeader" href="#Animation">
-            Animation
-          </a>
-          <a className="genreHeader" href="#Comedy">
-            Comedy
-          </a>
-          <a className="genreHeader" href="#Drama">
-            Drama
-          </a>
-          <a className="genreHeader" href="#Horror">
-            Horror
-          </a>
-          <a className="genreHeader" href="#Sci-Fi">
-            Sci-Fi
-          </a>
+          <a href="#Animation">Animation</a>
+          <a href="#Comedy">Comedy</a>
+          <a href="#Drama">Drama</a>
+          <a href="#Horror">Horror</a>
+          <a href="#Sci-Fi">Sci-Fi</a>
           <Dropdown />
         </div>
         <div className="search-box">

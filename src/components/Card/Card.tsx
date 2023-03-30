@@ -36,7 +36,7 @@ export const Card = ({
               })
             : ""}
           <h4>{rating}</h4>
-          <button onClick={button}>{message}</button>
+          <button className="favouriteButton" onClick={button}>{message}</button>
         </div>
       </div>
     </div>
