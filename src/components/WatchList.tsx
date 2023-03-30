@@ -16,7 +16,7 @@ export const WatchList = ({
       <h2 className="categoryTitle"> Your Watch List: </h2>
       {faves && Array.isArray(faves) && faves.length >= 1 ? (
         <div className="containers">
-          {faves.map((item: any) => (
+          {faves.map((item) => (
             <Card
               key={item.title}
               title={item.title}

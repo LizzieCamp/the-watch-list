@@ -1,5 +1,3 @@
-import { DataType } from "../../types";
-import ImageToggler from "../ImageToggler";
 import "../styles";
 
 export interface Movie {
@@ -30,13 +28,13 @@ export const Card = ({
         <div className="items projectContent">
           {genre && Array.isArray(genre)
             ? genre.map((value, i) => {
-                {
-                  return <h4 key={i}>{value}</h4>;
-                }
+                return <h4 key={i}>{value}</h4>;
               })
             : ""}
           <h4>{rating}</h4>
-          <button className="favouriteButton" onClick={button}>{message}</button>
+          <button className="favouriteButton" onClick={button}>
+            {message}
+          </button>
         </div>
       </div>
     </div>

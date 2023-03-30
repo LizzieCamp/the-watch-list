@@ -1,7 +1,7 @@
-import { Movie } from "../Card/Card";
+import { DataType } from "../../types";
 import "../styles";
 
-export const OurPick = ({ movie }: any) => {
+export const OurPick = ({ movie }: { movie: DataType }) => {
   return (
     <div className="ourPickContainer">
       <div className="infoContainer">
@@ -9,14 +9,12 @@ export const OurPick = ({ movie }: any) => {
         <div className="genres">
           <h3>Genres:</h3>
           {movie.genre && Array.isArray(movie.genre)
-            ? movie.genre.map((value: any, i: any) => {
-                {
-                  return (
-                    <h3 key={i} className="genreType">
-                      {value}{" "}
-                    </h3>
-                  );
-                }
+            ? movie.genre.map((value, i) => {
+                return (
+                  <h3 key={i} className="genreType">
+                    {value}{" "}
+                  </h3>
+                );
               })
             : ""}
         </div>
@@ -25,7 +23,7 @@ export const OurPick = ({ movie }: any) => {
       </div>
 
       <div>
-        <img src={movie.poster} />
+        <img src={movie.poster} alt={`${movie.title} poster`} />
       </div>
     </div>
   );

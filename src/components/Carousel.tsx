@@ -3,16 +3,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./styles";
 import { renderGenre } from "./renderGenre";
-import { DataType } from "../types";
+import { CarouselProps, DataType } from "../types";
 
-export interface Props {
-  genre: DataType[];
-  button?: any;
-  message: string;
-  
-}
-
-export const Carousel = (props: Props) => {
+export const Carousel = ({ genre, button, message }: CarouselProps) => {
   const settings = {
     infinite: true,
     speed: 200,
@@ -36,8 +29,8 @@ export const Carousel = (props: Props) => {
   return (
     <div className="carousel">
       <Slider {...settings}>
-        {props.genre.map((item: DataType) => (
-          <div key={item.title}>{renderGenre(item, props.button, props.message)}</div>
+        {genre.map((item: DataType) => (
+          <div key={item.title}>{renderGenre(item, button, message)}</div>
         ))}
       </Slider>
     </div>

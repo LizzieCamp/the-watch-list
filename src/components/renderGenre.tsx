@@ -2,7 +2,7 @@ import { Card } from "./Card/Card";
 import { genreSplit } from "../utils";
 import { DataType } from "../types";
 
-export const renderGenre = (genreData: any, button: (a: any) => void, message: string) => {
+export const renderGenre = (genreData: DataType, button: (a: any) => void, message: string) => {
   return (
     <div className="containers">
       {Array.isArray(genreData) && genreData.length ? (

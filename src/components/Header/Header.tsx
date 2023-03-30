@@ -1,15 +1,22 @@
 import { useState } from "react";
+import { DataType } from "../../types";
 import { genreSplit } from "../../utils";
 import { Card } from "../Card/Card";
 import { Dropdown } from "../Dropdown/Dropdown";
 import "../styles";
 
-export const Header = (props: any) => {
+type HeaderProps = {
+  searched: DataType;
+  handleQuery: any;
+  button: (a: any) => void;
+};
+
+export const Header = ({ searched, handleQuery }: HeaderProps) => {
   const [userInput, setUserInput] = useState("");
 
   const handleSearchInput = (input: any) => {
     setUserInput(input);
-    props.handleQuery(userInput);
+    handleQuery(userInput);
     return input;
   };
   const searchInput = document.getElementById("search-bar") as HTMLInputElement;
@@ -55,11 +62,9 @@ export const Header = (props: any) => {
       </div>
       <div id="searched-section" style={{ display: "none" }}>
         <h2> SEARCHED </h2>
-        {props.searched &&
-        Array.isArray(props.searched) &&
-        props.searched.length ? (
+        {searched && Array.isArray(searched) && searched.length ? (
           <div className="containers">
-            {props.searched.map((item: any) => (
+            {searched.map((item) => (
               <Card
                 key={item.title}
                 title={item.title}
@@ -72,11 +77,11 @@ export const Header = (props: any) => {
         ) : (
           <div className="containers">
             <Card
-              key={props.searched.title}
-              title={props.searched.title}
-              poster={props.searched.poster}
-              rating={props.searched.rating}
-              genre={genreSplit(props.searched)}
+              key={searched.title}
+              title={searched.title}
+              poster={searched.poster}
+              rating={searched.rating}
+              genre={genreSplit(searched)}
             />
           </div>
         )}

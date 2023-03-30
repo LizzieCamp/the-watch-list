@@ -13,6 +13,7 @@ const App = () => {
   const [searched, setSearched] = useState<DataType>(initialData);
   const [ourPick, setOurPick] = useState<DataType>(initialData);
   const [genreData, setGenreData] = useState("");
+  const [favourites, setFavourites] = useState<DataType[]>([]);
 
   const handleFetchData = (data: DataType) => {
     setData(data);
@@ -51,7 +52,6 @@ const App = () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
-  const [favourites, setFavourites] = useState<DataType[]>([]);
 
   const addFavourites = (movie: DataType) => {
     if (favourites) {
@@ -75,7 +75,11 @@ const App = () => {
         handleOurPick={handleOurPick}
         handleFetchGenre={handleFetchGenre}
       />
-      <Header handleQuery={handleQueryData} searched={searched} button={addFavourites} />
+      <Header
+        handleQuery={handleQueryData}
+        searched={searched}
+        button={addFavourites}
+      />
       <div id="content-section" style={{ display: "block" }}>
         <OurPick movie={ourPick} />
         <WatchList favourites={favourites} button={addFavourites} />
