@@ -44,7 +44,7 @@ https://github.com/LizzieCamp/movieAPI
 
 Please see the below video of a live demo of **The Watch List** in action.
 
-
+https://user-images.githubusercontent.com/55543295/228942386-05fa4763-c091-4aa6-b195-6df699d2f91c.mp4
 
 ## Conclusion:
 "The Watch List" project is a responsive and easy-to-use web application that allows users to browse and add films to their watch list. It has been built using React, Typescript, and SCSS technologies, making it more efficient and maintainable. \
