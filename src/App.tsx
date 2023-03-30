@@ -6,6 +6,7 @@ import { DataType, initialData } from "./types";
 import { AllMovies } from "./components/AllMovies";
 import { Genres } from "./components/Genres";
 import { WatchList } from "./components/WatchList";
+import { genreSplit } from "./utils";
 
 const App = () => {
   const [appData, setData] = useState<DataType>(initialData);
@@ -81,7 +82,7 @@ const App = () => {
         button={addFavourites}
       />
       <div id="content-section" style={{ display: "block" }}>
-        <OurPick movie={ourPick} />
+        <OurPick movie={ourPick} genre={genreSplit(ourPick)} />
         <WatchList favourites={favourites} button={addFavourites} />
         <AllMovies data={appData} button={addFavourites} />
         <Genres data={genreData} button={addFavourites} />

@@ -1,18 +1,17 @@
-import { DataType } from "../../types";
 import "../styles";
 
-export const OurPick = ({ movie }: { movie: DataType }) => {
+export const OurPick = ({ movie, genre }: any) => {
   return (
     <div className="ourPickContainer">
       <div className="infoContainer">
         <h1>{movie.title}</h1>
         <div className="genres">
           <h3>Genres:</h3>
-          {movie.genre && Array.isArray(movie.genre)
-            ? movie.genre.map((value, i) => {
+          {genre && Array.isArray(genre)
+            ? genre.map((value: any, i: any) => {
                 return (
                   <h3 key={i} className="genreType">
-                    {value}{" "}
+                    {value}
                   </h3>
                 );
               })
