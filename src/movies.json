@@ -1,0 +1,1226 @@
+[
+  {
+    "title": "12 Angry Men (1957)",
+    "rating": "8.9",
+    "genre": "Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODQwOTc5MDM2N15BMl5BanBnXkFtZTcwODQxNTEzNA@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "2001: A Space Odyssey (1968)",
+    "rating": "8.3",
+    "genre": "Adventure|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTZkZTBhYmUtMTIzNy00YTViLTg1OWItNGUwMmVlN2FjZTVkXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "A Christmas Carol (1951)",
+    "rating": "8.1",
+    "genre": "Drama|Fantasy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZTM0MWMyYzgtMTJiMS00MjNiLWJhN2EtOGRiYmRkMGEwMzkwXkEyXkFqcGdeQXVyNDk0MDg4NDk@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "A Muppet Family Christmas (1987)",
+    "rating": "8.2",
+    "genre": "Comedy|Family|Music",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk5NTAwMzkwMF5BMl5BanBnXkFtZTcwMTEyMjUyMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "A Separation (2011)",
+    "rating": "8.4",
+    "genre": "Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzMzU4NDUwOF5BMl5BanBnXkFtZTcwMTM5MjA5Ng@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "A Streetcar Named Desire (1951)",
+    "rating": "8",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzk2M2Y3MzYtNGMzMi00Y2FjLTkwODQtNmExYWU3ZWY3NzExXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Abigail's Party",
+    "rating": "8.2",
+    "genre": "Comedy|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU4NDUzMjg3N15BMl5BanBnXkFtZTcwMzI4MDUxMQ@@._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Airlift (2016)",
+    "rating": "8.2",
+    "genre": "Drama|History|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZGE1ZTZhNmQtYzhmNC00MjE4LTg4NDUtY2I4N2Y3OTgwZjljXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_UY268_CR1,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Aladdin (1992)",
+    "rating": "8",
+    "genre": "Animation|Adventure|Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTI4ODQ1MzAzNV5BMl5BanBnXkFtZTgwMzU4NzMxMDE@._V1_UY268_CR9,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Alice in the Cities (1974)",
+    "rating": "8",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzIxNjE2NGQtMzg3Yy00ZTYzLThmOTMtMTEyYWYxYTI2MzkyXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "All About Eve (1950)",
+    "rating": "8.3",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY2MTAzODI5NV5BMl5BanBnXkFtZTgwMjM4NzQ0MjE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "An Evening with Kevin Smith (2002)",
+    "rating": "8.4",
+    "genre": "Comedy|Documentary",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWE2MDkzNzctMmQwYy00MmFhLTgyMTQtMjc3N2M4MGQ4MmExXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "And Then There Were None",
+    "rating": "8",
+    "genre": "Crime|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjIzZDg2YWUtZGEwOS00OGM5LTgwZTgtMGVhMTFiZDhjMjExXkEyXkFqcGdeQXVyMjExMjk0ODk@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Baby (2015)",
+    "rating": "8.1",
+    "genre": "Action|Adventure|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAzMDUzMzk0NV5BMl5BanBnXkFtZTgwODczODg4MzE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Babylon 5",
+    "rating": "8.3",
+    "genre": "Action|Adventure|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjgyODIzNzE5OF5BMl5BanBnXkFtZTcwNDk3MzkxMQ@@._V1_UY268_CR11,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Back to the Future (1985)",
+    "rating": "8.5",
+    "genre": "Adventure|Comedy|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Band of Brothers",
+    "rating": "9.5",
+    "genre": "Action|Drama|History",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI3ODc2ODc0M15BMl5BanBnXkFtZTYwMjgzNjc3._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Barry Lyndon (1975)",
+    "rating": "8.1",
+    "genre": "Adventure|Drama|History",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNmY0MWY2NDctZDdmMi00MjA1LTk0ZTQtZDMyZTQ1NTNlYzVjXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Batman: The Dark Knight Returns, Part 1 (2012)",
+    "rating": "8",
+    "genre": "Animation|Action|Adventure",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzIxMDkxNDM2M15BMl5BanBnXkFtZTcwMDA5ODY1OQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Batman: The Dark Knight Returns, Part 2 (2013)",
+    "rating": "8.4",
+    "genre": "Animation|Action|Adventure",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1Mjk1NTY2NV5BMl5BanBnXkFtZTgwMTA2MDEwNzE@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Batman: Under the Red Hood (2010)",
+    "rating": "8.1",
+    "genre": "Animation|Action|Crime",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYTdlODI0YTYtNjk5ZS00YzZjLTllZjktYmYzNWM4NmI5MmMxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Battlestar Galactica",
+    "rating": "8.6",
+    "genre": "Action|Adventure|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4MDU3MTQyNl5BMl5BanBnXkFtZTcwNzk5NDQyMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Beautiful People (1974)",
+    "rating": "8.3",
+    "genre": "Comedy|Documentary",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTIwMzgzMjc5NV5BMl5BanBnXkFtZTcwOTYyNTAzMQ@@._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Beauty and the Beast (1991)",
+    "rating": "8",
+    "genre": "Animation|Family|Fantasy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzE5MDM1NDktY2I0OC00YWI5LTk2NzUtYjczNDczOWQxYjM0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Before Sunrise (1995)",
+    "rating": "8.1",
+    "genre": "Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDdiZTAwYzAtMDI3Ni00OTRjLTkzN2UtMGE3MDMyZmU4NTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Before Sunset (2004)",
+    "rating": "8",
+    "genre": "Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1MjAwNTM5Ml5BMl5BanBnXkFtZTYwNDM0MTc3._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Big Fish (2003)",
+    "rating": "8",
+    "genre": "Adventure|Drama|Fantasy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYyMzM3MzgyNV5BMl5BanBnXkFtZTcwMTI4MzUyMQ@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Bill Burr: I'm Sorry You Feel That Way (2014)",
+    "rating": "8.4",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk0MzI5MjAxNV5BMl5BanBnXkFtZTgwNDY1NzA0NDE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Bill Burr: You People Are All the Same. (2012)",
+    "rating": "8.3",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA3MTkwNDAzNl5BMl5BanBnXkFtZTcwMjAzMjA1OQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Black (2005)",
+    "rating": "8.3",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTI5MmE5M2UtZjIzYS00M2JjLWIwNDItYTY2ZWNiODBmYTBiXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_UY268_CR1,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Black Friday (2004)",
+    "rating": "8.6",
+    "genre": "Crime|Drama|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMmU1NDhjYTQtYjQxYy00MjlmLWIxMjItMjllMmE2NDRlY2ZhXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY268_CR16,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Black Mirror",
+    "rating": "8.9",
+    "genre": "Drama|Sci-Fi|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk5NTk1Mzg3Ml5BMl5BanBnXkFtZTcwNDAyNzY3OA@@._V1._CR25,3,1010,1343_UY268_CR10,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Black Swan (2010)",
+    "rating": "8",
+    "genre": "Drama|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Blade Runner (1982)",
+    "rating": "8.2",
+    "genre": "Sci-Fi|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Bleak House",
+    "rating": "8.4",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NjQzNDIzMV5BMl5BanBnXkFtZTcwNjQzNzAzMg@@._V1._CR24,25,304,418_UY268_CR6,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Blood In, Blood Out (1993)",
+    "rating": "8",
+    "genre": "Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMyMTM5OTMxNF5BMl5BanBnXkFtZTYwODcyNDY5._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "C.R.A.Z.Y. (2005)",
+    "rating": "8",
+    "genre": "Comedy|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU3MDc2MjUwMV5BMl5BanBnXkFtZTcwNzQyMDAzMQ@@._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Campus Radio (2011)",
+    "rating": "8",
+    "genre": "Comedy|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0MjcxOTg4NF5BMl5BanBnXkFtZTcwMTY5MTkxNA@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Captains Courageous (1937)",
+    "rating": "8",
+    "genre": "Adventure|Drama|Family",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODI5NjhiNjktYzhkNi00ODFkLTg0NTgtZDQ2M2E5ZTY2ZGM0XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Casablanca (1942)",
+    "rating": "8.5",
+    "genre": "Drama|Romance|War",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BY2IzZGY2YmEtYzljNS00NTM5LTgwMzUtMzM1NjQ4NGI0OTk0XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Casino (1995)",
+    "rating": "8.2",
+    "genre": "Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcxOWYzNDYtYmM4YS00N2NkLTk0NTAtNjg1ODgwZjAxYzI3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Central Station (1998)",
+    "rating": "8",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODMxMTEyZmQtODU1OC00Y2I5LWI3NmMtOGFiZTcxNTVmOTQ5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR1,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Chris Rock: Bigger & Blacker (1999)",
+    "rating": "8",
+    "genre": "Comedy|Documentary",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI4MTY0MTIzMV5BMl5BanBnXkFtZTcwNzcwMTEzMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "City of God (2002)",
+    "rating": "8.7",
+    "genre": "Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4ODQ3ODkzNV5BMl5BanBnXkFtZTYwOTc4NDI3._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Confession (1937)",
+    "rating": "8",
+    "genre": "Crime|Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOWI1MGU3NzktOWNlNC00NDExLTlmMjEtNTJlNDc0YWU2NTYzXkEyXkFqcGdeQXVyNjc0MzMzNjA@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Conspiracy of Silence",
+    "rating": "8.1",
+    "genre": "Crime|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg5ODIxOTk5NV5BMl5BanBnXkFtZTcwMDI2MjgxMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Cool Hand Luke (1967)",
+    "rating": "8.2",
+    "genre": "Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOWFlNzZhYmYtYTI5YS00MDQyLWIyNTUtNTRjMWUwNTEzNjA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Cowboy Bebop",
+    "rating": "9",
+    "genre": "Animation|Action|Adventure",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZWRjN2NjNGEtMjc0MC00MzViLTlhNzItNWMzNjZmOGE5MTkzXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY268_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Cranford",
+    "rating": "8.4",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1NzYyNjYwMl5BMl5BanBnXkFtZTcwODA5NDcxMw@@._V1._CR10,0,340,475_UY268_CR5,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Crimes and Misdemeanors (1989)",
+    "rating": "8",
+    "genre": "Comedy|Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxMDE3NDMwOV5BMl5BanBnXkFtZTcwMDQwODQ2NA@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Dances with Wolves (1990)",
+    "rating": "8",
+    "genre": "Adventure|Drama|Western",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3OTI5NDczN15BMl5BanBnXkFtZTcwNDA0NDY3Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Dawn of the Dead (1978)",
+    "rating": "8",
+    "genre": "Horror|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzc1YTIyNjctYzhlNy00ZmYzLWI2ZWQtMzk4MmQwYzA0NGQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Day of Wrath (1943)",
+    "rating": "8",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTJjYzViOTItZjhjNS00NjgyLWExZTAtY2I2NDE0ZGQxNGFlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR9,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Days of Heaven (1978)",
+    "rating": "8",
+    "genre": "Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDNmODcxMTQtNDcwYy00NTQxLTkwOTMtN2Y2MzRhNzFiZmZiL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR1,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Deadline (2011)",
+    "rating": "8.1",
+    "genre": "Mystery|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYyOTgyMjI4N15BMl5BanBnXkFtZTcwOTM3NjE5OA@@._V1_UY268_CR5,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Die Hard (1988)",
+    "rating": "8.2",
+    "genre": "Action|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYmY2ZGEwMTYtNjBmZS00OGE4LWEyMmUtNjAwMWUxZjVmZTRiXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Diplomatic Immunity",
+    "rating": "8.1",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWFhYjcxMTItMzI0YS00YTgwLWJlZjYtZmNiMTY4MjZhMDEwXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_UY268_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "District 9 (2009)",
+    "rating": "8",
+    "genre": "Action|Sci-Fi|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM4OTI1OTM5NF5BMl5BanBnXkFtZTcwMzk5MTU1Mg@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Django Unchained (2012)",
+    "rating": "8.4",
+    "genre": "Drama|Western",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Dodsworth (1936)",
+    "rating": "8.1",
+    "genre": "Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTIzOWU0NWUtN2Y2ZC00N2U2LTliMzQtZWNjNmZkNTc4YTU3L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Dogville (2003)",
+    "rating": "8.1",
+    "genre": "Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwNTg2MTI1NF5BMl5BanBnXkFtZTcwMDM1MzUyMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)",
+    "rating": "8.5",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTkxYjUxNDYtZGY0My00NTc2LThiZmYtNmNmNmU0NGVkZWYwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Dragon Ball Z: Bardock - The Father of Goku (1990)",
+    "rating": "8",
+    "genre": "Animation|Drama|Fantasy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyNjY5MTQ4Ml5BMl5BanBnXkFtZTgwNTExNTIxMTE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Dragon Ball Z: The History of Trunks (1993)",
+    "rating": "8",
+    "genre": "Animation|Action|Adventure",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAzZjhmNmYtZWJkYi00YmVlLThhZWQtNDhkMjViNWI4MDdhXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Early Spring (1956)",
+    "rating": "8",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMmFkZTJlOTMtNjk4Ni00MzNjLWJlZTAtNDI3ZjJhY2E0NjIwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR9,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "East of Eden (1955)",
+    "rating": "8",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTYzNjI3MWUtZjg3Yi00ZDBkLWIwM2YtYmUyZGZjN2RiZjI5XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Eddie Izzard: Unrepeatable (1994)",
+    "rating": "8.1",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzAyNTk2OTc2OF5BMl5BanBnXkFtZTcwOTAwMDcyMQ@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Elite Squad (2007)",
+    "rating": "8.1",
+    "genre": "Action|Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI1Mzc5NjI4Nl5BMl5BanBnXkFtZTcwNzYyMTQ5MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Elite Squad: The Enemy Within (2010)",
+    "rating": "8.1",
+    "genre": "Action|Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA0NjA2OTk2MV5BMl5BanBnXkFtZTcwNzIxNjk5Ng@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Emma",
+    "rating": "8.2",
+    "genre": "Comedy|Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxMDc1MzQxMV5BMl5BanBnXkFtZTcwMzY0MzUwMw@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Fail-Safe (1964)",
+    "rating": "8",
+    "genre": "Drama|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjcyZjA1NzktYmNmYy00M2UwLWFmNTktNzRmNjNiZWUyZGI1XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Fawlty Towers",
+    "rating": "8.8",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDU2NzMxMTYzNV5BMl5BanBnXkFtZTYwMjg1Nzk4._V1._CR0,40,259,396_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Finding Nemo (2003)",
+    "rating": "8.1",
+    "genre": "Animation|Adventure|Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZTAzNWZlNmUtZDEzYi00ZjA5LWIwYjEtZGM1NWE1MjE4YWRhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Fingersmith",
+    "rating": "8",
+    "genre": "Crime|Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU3ODA3NDE5OF5BMl5BanBnXkFtZTcwNDM1NjAzMQ@@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Fists in the Pocket (1965)",
+    "rating": "8",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1NjMzOTIyMF5BMl5BanBnXkFtZTcwMjgyMDgzOQ@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "For a Few Dollars More (1965)",
+    "rating": "8.3",
+    "genre": "Western",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQzMjIzOTEzMF5BMl5BanBnXkFtZTcwMTUzNTk3NA@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Frankie Boyle Live - The Last Days of Sodom (2012)",
+    "rating": "8",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODU0YzhjMWMtYzExMi00Y2Y5LTgwOTUtNjY3OTQwYzY1ZTk2XkEyXkFqcGdeQXVyMjY0MzgwMTc@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Friends and Romans (2014)",
+    "rating": "8.1",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2ODg2MDgxMF5BMl5BanBnXkFtZTgwMzc2NzYxNzE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "From the Earth to the Moon",
+    "rating": "8.8",
+    "genre": "Action|Drama|History",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg2NDg4NjY3Ml5BMl5BanBnXkFtZTcwMjg2NTA0Mg@@._V1._CR0,1,331,472_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "G.I. Joe: A Real American Hero",
+    "rating": "8.1",
+    "genre": "Animation|Action|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTQ3NTAwMzE4OV5BMl5BanBnXkFtZTcwNDQ1MjQxMw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "G.I. Joe: The Revenge of Cobra",
+    "rating": "8.1",
+    "genre": "Action|Animation",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNmYzYTg3OWQtZTZhMi00NTdjLTliNmEtMWE3MmQxZGE3YTEwL2ltYWdlXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_UY268_CR87,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Generation War",
+    "rating": "8.5",
+    "genre": "Action|Drama|History",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwMzIyMjg5M15BMl5BanBnXkFtZTgwNzM1NjI2MDE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Ghost in the Shell: Stand Alone Complex - The Laughing Man (2005)",
+    "rating": "8.3",
+    "genre": "Animation|Action|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYzA0YzA5MDEtNzFmMi00Nzc5LTk1YWQtNzlhYTEyNDVkNjM5XkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Gladiator (2000)",
+    "rating": "8.5",
+    "genre": "Action|Adventure|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Gone Girl (2014)",
+    "rating": "8.1",
+    "genre": "Crime|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Good Will Hunting (1997)",
+    "rating": "8.3",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTI0MzcxMTYtZDVkMy00NjY1LTgyMTYtZmUxN2M3NmQ2NWJhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Great Expectations (1946)",
+    "rating": "8",
+    "genre": "Adventure|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZjA1YTQ1NGItZDI0OS00MTFiLTg1NTUtOWViMTg0ZDA4MWMyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Groundhog Day (1993)",
+    "rating": "8",
+    "genre": "Comedy|Fantasy|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZWIxNzM5YzQtY2FmMS00Yjc3LWI1ZjUtNGVjMjMzZTIxZTIxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Guardians of the Galaxy (2014)",
+    "rating": "8.1",
+    "genre": "Action|Adventure|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Hamlet (2009)",
+    "rating": "8.2",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0MTU5ODY3OV5BMl5BanBnXkFtZTcwNzg5NzAyMw@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows: Part 2 (2011)",
+    "rating": "8.1",
+    "genre": "Adventure|Drama|Fantasy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY2MTk3MDQ1N15BMl5BanBnXkFtZTcwMzI4NzA2NQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Hatfields & McCoys",
+    "rating": "8",
+    "genre": "Drama|History|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDIyNDUzNzQ0Ml5BMl5BanBnXkFtZTcwNzc5Nzg3Nw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Head-On (2004)",
+    "rating": "8",
+    "genre": "Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODBiNzYxNzYtMjkyMi00MjUyLWJkM2YtZjNkMDhhYmEwMTRiL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Heat (1995)",
+    "rating": "8.2",
+    "genre": "Action|Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGMwNzUwNjYtZWM5NS00YzMyLWI4NjAtNjM0ZDBiMzE1YWExXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Her (2013)",
+    "rating": "8",
+    "genre": "Drama|Romance|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Herod's Law (1999)",
+    "rating": "8.1",
+    "genre": "Comedy|Crime|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg2MjAwMTIxN15BMl5BanBnXkFtZTcwMjM0OTQ1MQ@@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Hillsborough (1996)",
+    "rating": "8",
+    "genre": "Drama|Sport",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNWJlYzY0ODktODM1Yi00YjEwLWI4MzktMGYwOTZhMWY5NzAyXkEyXkFqcGdeQXVyMTgwOTE5NDk@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Horace and Pete",
+    "rating": "8.8",
+    "genre": "Comedy|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDA2NTQ3YzUtZWU2Ni00NzljLWFjYTUtZjY1ODc3MjUwNDk1XkEyXkFqcGdeQXVyMjU3MjEzNjY@._V1_UY268_CR43,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Horatio Hornblower: The Duel (1998)",
+    "rating": "8.2",
+    "genre": "Adventure|Drama|War",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5ODYwOTEyOV5BMl5BanBnXkFtZTcwOTE3MTkxMQ@@._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "How the Grinch Stole Christmas! (1966)",
+    "rating": "8.4",
+    "genre": "Animation|Comedy|Family",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyMDc5ODg4NF5BMl5BanBnXkFtZTgwMzc2OTIyMTE@._V1_UY268_CR11,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "How to Train Your Dragon (2010)",
+    "rating": "8.2",
+    "genre": "Animation|Action|Adventure",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Howl's Moving Castle (2004)",
+    "rating": "8.2",
+    "genre": "Animation|Adventure|Family",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY1OTg0MjE3MV5BMl5BanBnXkFtZTcwNTUxMTkyMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "I Was Born, But... (1932)",
+    "rating": "8",
+    "genre": "Comedy|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzZkOTVjY2MtZDhlMS00MjUyLTkyZWUtZmMzYWY0MTRjNWQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Imaginationland: The Movie (2008)",
+    "rating": "8.6",
+    "genre": "Animation|Comedy|Fantasy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTA4MTQxMTkwMDleQTJeQWpwZ15BbWU4MDk5ODIwNjAx._V1_UY268_CR9,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Inception (2010)",
+    "rating": "8.8",
+    "genre": "Action|Adventure|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Indiana Jones and the Last Crusade (1989)",
+    "rating": "8.3",
+    "genre": "Action|Adventure|Fantasy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjNkMzc2N2QtNjVlNS00ZTk5LTg0MTgtODY2MDAwNTMwZjBjXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Inglourious Basterds (2009)",
+    "rating": "8.3",
+    "genre": "Adventure|Drama|War",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Inside Out (2015)",
+    "rating": "8.2",
+    "genre": "Animation|Adventure|Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Insomniac with Dave Attell",
+    "rating": "8.2",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzI1MTE1MTczMV5BMl5BanBnXkFtZTYwODUyNDg5._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Interstellar (2014)",
+    "rating": "8.6",
+    "genre": "Adventure|Drama|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Into the West",
+    "rating": "8.1",
+    "genre": "Adventure|Drama|History",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI1NTg4NTE2M15BMl5BanBnXkFtZTcwMzUwNjAzMQ@@._V1_UY268_CR9,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Into the Wild (2007)",
+    "rating": "8.1",
+    "genre": "Adventure|Biography|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTAwNDEyODU1MjheQTJeQWpwZ15BbWU2MDc3NDQwNw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Into the Woods",
+    "rating": "8.4",
+    "genre": "Comedy|Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTI3NTQ5NDg4OV5BMl5BanBnXkFtZTcwMTY0MTkyMQ@@._V1_UY268_CR5,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "It's a Wonderful Life (1946)",
+    "rating": "8.6",
+    "genre": "Drama|Family|Fantasy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzMzY5NDc4M15BMl5BanBnXkFtZTcwMzc4NjIxNw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "It's Such a Beautiful Day (2012)",
+    "rating": "8.3",
+    "genre": "Animation|Comedy|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BM2Y0YjBiNjAtZjMwZS00ZGY4LWE0MWItMGE5MWI3ZWRmODAyXkEyXkFqcGdeQXVyMjM5NDU5ODY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Jane Eyre",
+    "rating": "8.4",
+    "genre": "Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ0NjkxNjk5Ml5BMl5BanBnXkFtZTcwNzA1MzI0MQ@@._V1._CR0,2,295,423_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Jaws (1975)",
+    "rating": "8",
+    "genre": "Adventure|Drama|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMmVmODY1MzEtYTMwZC00MzNhLWFkNDMtZjAwM2EwODUxZTA5XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Jeff Dunham: Arguing with Myself (2006)",
+    "rating": "8.1",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI3ODQxOTYxMV5BMl5BanBnXkFtZTgwMzU5MDk3MDE@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Jeff Dunham: Spark of Insanity (2007)",
+    "rating": "8.1",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDhiY2EyZmEtY2U0ZS00YmVmLWIyMDMtOTI3MzNmMmU1MGZmXkEyXkFqcGdeQXVyMjA5MDMyMjE@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Jekyll",
+    "rating": "8.2",
+    "genre": "Crime|Horror|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUzMjkzNDY0MF5BMl5BanBnXkFtZTcwNDQyMzA1MQ@@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "JFK (1991)",
+    "rating": "8",
+    "genre": "Drama|History|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYjYyODExMDctZjgwYy00ZjQwLWI4OWYtOGFlYjA4ZjEzNmY1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Jurassic Park (1993)",
+    "rating": "8.1",
+    "genre": "Adventure|Sci-Fi|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Justice League: The Flashpoint Paradox (2013)",
+    "rating": "8.1",
+    "genre": "Animation|Action|Adventure",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgwNTljYzgtOTU3ZC00ZjhhLTk0YzItY2RiMWU0MGZlNzFjL2ltYWdlXkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Kill Bill: Vol. 1 (2003)",
+    "rating": "8.1",
+    "genre": "Action|Crime|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1NDg1Mzg4M15BMl5BanBnXkFtZTYwMDExOTc3._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Kill Bill: Vol. 2 (2004)",
+    "rating": "8",
+    "genre": "Action|Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjA2MjZiNmQtYmM0My00NmQwLWE2OGMtZGU0MWYzODI5YjY1XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Killa (2014)",
+    "rating": "8.1",
+    "genre": "Comedy|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY1NTIwMTY2NV5BMl5BanBnXkFtZTgwNDU2MDY4MjE@._V1_UY268_CR9,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Lawrence of Arabia (1962)",
+    "rating": "8.3",
+    "genre": "Adventure|Biography|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWY5ZjhjNGYtZmI2Ny00ODM0LWFkNzgtZmI1YzA2N2MxMzA0XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Les mis泰rables (1934)",
+    "rating": "8.1",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMmYxNWFiMDMtMWRiOC00MzA1LWI4ZmEtMzAzNDRhZmUyNjNlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Let the Right One In (2008)",
+    "rating": "8",
+    "genre": "Drama|Horror|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE1OTY2MTM5MF5BMl5BanBnXkFtZTcwNzQ5Mjc5MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Life Is Beautiful (1997)",
+    "rating": "8.6",
+    "genre": "Comedy|Drama|War",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Life of Brian (1979)",
+    "rating": "8.1",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzAwNjU1OTktYjY3Mi00NDY5LWFlZWUtZjhjNGE0OTkwZDkwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Life, and Nothing More... (1992)",
+    "rating": "8",
+    "genre": "Adventure|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMyMTA1MDcwNV5BMl5BanBnXkFtZTcwMTA0NjgxMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Little Criminals (1995)",
+    "rating": "8.1",
+    "genre": "Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTNlMDZmNDYtNzBhOS00ODY1LWE2YjAtMTMwYmNmMjYyNDNhXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Little Dorrit",
+    "rating": "8.3",
+    "genre": "Drama|Mystery|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNTQwNTAzMTA3N15BMl5BanBnXkFtZTcwODM1ODE0Mg@@._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Mad Max: Fury Road (2015)",
+    "rating": "8.1",
+    "genre": "Action|Adventure|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUyMTE0ODcxNF5BMl5BanBnXkFtZTgwODE4NDQzNTE@._V1_UY268_CR1,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Make Way for Tomorrow (1937)",
+    "rating": "8.3",
+    "genre": "Comedy|Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjI0NDUwNTQ0NV5BMl5BanBnXkFtZTgwNzIwOTkzNDE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Manhattan (1979)",
+    "rating": "8",
+    "genre": "Comedy|Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzdmY2I3MmEtOGFiZi00MTg1LWIxY2QtNWUwM2NmNWNlY2U5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Manon of the Spring (1986)",
+    "rating": "8",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcxMzkzMTM5Nl5BMl5BanBnXkFtZTcwODkzNzA2NA@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Mary and Max (2009)",
+    "rating": "8.2",
+    "genre": "Animation|Comedy|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1NDIyNTA1Nl5BMl5BanBnXkFtZTcwMjc2Njk3OA@@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Memento (2000)",
+    "rating": "8.5",
+    "genre": "Mystery|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UY268_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Million Dollar Baby (2004)",
+    "rating": "8.1",
+    "genre": "Drama|Sport",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Monsters, Inc. (2001)",
+    "rating": "8.1",
+    "genre": "Animation|Adventure|Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Monty Python: Almost the Truth - The Lawyer's Cut",
+    "rating": "8.1",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1OTQ4MTI1MV5BMl5BanBnXkFtZTcwMjQ5OTM5Mg@@._V1_UY268_CR14,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Monty Python's Fliegender Zirkus",
+    "rating": "8.3",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ2NjI4NzU3N15BMl5BanBnXkFtZTcwMzc3OTMyMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "More (1998)",
+    "rating": "8.2",
+    "genre": "Sci-Fi|Short|Animation",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMmYwNWRmNTAtZjYyZC00YzdiLWJlNjItYmJkODEyYWFjYWM0XkEyXkFqcGdeQXVyMjExNjgyMTc@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Moscow Does Not Believe in Tears (1980)",
+    "rating": "8.2",
+    "genre": "Comedy|Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTIyMDcxMjQzMV5BMl5BanBnXkFtZTcwMDEyMDUyMQ@@._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Murder on a Sunday Morning (2001)",
+    "rating": "8",
+    "genre": "Crime|Documentary",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzc5M2Q4Y2UtZDNmYS00NTYzLTkxYzAtZjhiNjQ4Yjk0YTFjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Mystic River (2003)",
+    "rating": "8",
+    "genre": "Crime|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTIzNDUyMjA4MV5BMl5BanBnXkFtZTYwNDc4ODM3._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "No Country for Old Men (2007)",
+    "rating": "8.1",
+    "genre": "Crime|Drama|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_UY268_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Now, Voyager (1942)",
+    "rating": "8.1",
+    "genre": "Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDQ2YWUxOTctYWNjMi00NzE3LTg4MjUtMzUyNzA0OTJjZjNjXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_UY268_CR1,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Oklahoma! (1999)",
+    "rating": "8",
+    "genre": "Musical|Romance|Western",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE4NTkzMTYyM15BMl5BanBnXkFtZTcwNzA0MDQyMQ@@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Olive Kitteridge",
+    "rating": "8.4",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIzOTk4NzMzMV5BMl5BanBnXkFtZTgwMTczMzY4MjE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Once Upon a Time in America (1984)",
+    "rating": "8.4",
+    "genre": "Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMGFkNWI4MTMtNGQ0OC00MWVmLTk3MTktOGYxN2Y2YWVkZWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Once Upon a Time in the West (1968)",
+    "rating": "8.6",
+    "genre": "Western",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxOTEwOTU0MV5BMl5BanBnXkFtZTgwNDc4NjQ3MTI@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest (1975)",
+    "rating": "8.7",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "One, Two, Three (1961)",
+    "rating": "8",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE1NzgxMDU2MV5BMl5BanBnXkFtZTcwOTQ5MDQ2NA@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Opening Night (1977)",
+    "rating": "8.1",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5NTE1NTY5NF5BMl5BanBnXkFtZTgwODAwMzkwMzE@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Ordet (1955)",
+    "rating": "8.2",
+    "genre": "Drama|Fantasy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZTNkYzgxNzQtYmRlZS00YjllLWE1Y2UtYzA2YTZmYTQyMGUzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY268_CR9,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Our Town (2003)",
+    "rating": "8",
+    "genre": "Drama|Family|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgxMzExOTM0MV5BMl5BanBnXkFtZTcwMTMwMjgyMQ@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Outsider (1997)",
+    "rating": "8.1",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZWQ3NWQ3Y2YtNzA3NS00ZDJiLWFhYzQtY2Q0MDQyNGE2YjkwXkEyXkFqcGdeQXVyNTg5Mzk3ODU@._V1_UY268_CR5,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Paper Moon (1973)",
+    "rating": "8.2",
+    "genre": "Comedy|Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOWVmYzQwY2MtOTBjNi00MDNhLWI5OGMtN2RiMDYxODI3MjU5XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Pardon (2005)",
+    "rating": "8.2",
+    "genre": "Comedy|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAxNDcwOTI1M15BMl5BanBnXkFtZTcwNjI4NTUzMQ@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Paris, Texas (1984)",
+    "rating": "8.1",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BM2RjMmU3ZWItYzBlMy00ZmJkLWE5YzgtNTVkODdhOWM3NGZhXkEyXkFqcGdeQXVyNDA5Mjg5MjA@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Patrice O'Neal: Elephant in the Room (2011)",
+    "rating": "8.1",
+    "genre": "Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM5MDUzNzI2N15BMl5BanBnXkFtZTgwNTE2NDA2MDE@._V1_UY268_CR9,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Planet of the Apes (1968)",
+    "rating": "8",
+    "genre": "Adventure|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0NjUwMzg5NF5BMl5BanBnXkFtZTgwNDQ0NjcwMTE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "rating": "9",
+    "genre": "Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1MDY4OTU5OF5BMl5BanBnXkFtZTcwOTg5NzAyMw@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Prime Suspect",
+    "rating": "8.5",
+    "genre": "Crime|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTIzNDI3NzAxM15BMl5BanBnXkFtZTcwNzM0NzQyMQ@@._V1_UY268_CR5,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Prime Suspect 2",
+    "rating": "8.2",
+    "genre": "Crime|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2ODczMjQ0Nl5BMl5BanBnXkFtZTcwNTM2MDAwMQ@@._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Prime Suspect 3",
+    "rating": "8.2",
+    "genre": "Crime|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAyNDAxOTIyNl5BMl5BanBnXkFtZTcwMDYzOTMyMQ@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Prime Suspect 5: Errors of Judgement",
+    "rating": "8",
+    "genre": "Crime|Mystery|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYjlkMGZiZDEtMDVkMS00YmI0LThmY2MtNmY3ZWNjZmRlYjA0XkEyXkFqcGdeQXVyMjExMjk0ODk@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Prime Suspect 6: The Last Witness",
+    "rating": "8.3",
+    "genre": "Crime|Drama|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgyMDkxMTgzNl5BMl5BanBnXkFtZTcwMjY3MTUyMQ@@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Prime Suspect 7: The Final Act",
+    "rating": "8.4",
+    "genre": "Crime|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTIyODE0NTY2OV5BMl5BanBnXkFtZTcwODQ5NjA1MQ@@._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Prime Suspect: The Scent of Darkness (1995)",
+    "rating": "8",
+    "genre": "Crime|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ5Mzg2OTg4OV5BMl5BanBnXkFtZTcwNzY5MDcyMQ@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Prison Break: The Final Break (2009)",
+    "rating": "8",
+    "genre": "Action|Drama|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzI0ODEzNTc1M15BMl5BanBnXkFtZTgwNjAyMjA2MDE@._V1_UY268_CR1,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Prisoners (2013)",
+    "rating": "8.1",
+    "genre": "Crime|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Pulp Fiction (1994)",
+    "rating": "8.9",
+    "genre": "Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMTA5OTAzMl5BMl5BanBnXkFtZTgwNjA5MDc3NjE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Rabbit Seasoning (1952)",
+    "rating": "8.4",
+    "genre": "Animation|Family|Short",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5NTg2MTgwNV5BMl5BanBnXkFtZTcwOTUzOTAwMw@@._V1_UY268_CR87,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Raiders of the Lost Ark (1981)",
+    "rating": "8.5",
+    "genre": "Action|Adventure",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxNA@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Raiders of the Lost Ark: The Adaptation (1989)",
+    "rating": "8.3",
+    "genre": "Action|Adventure|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYzFkMzJhMTgtNDI3Yy00NDdjLThhNzItYjFiMmFkMzBjNDEwXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Rain Man (1988)",
+    "rating": "8",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzVjNzI4NzYtMjE4NS00M2IzLWFkOWMtOTYwMWUzN2ZlNGVjL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Ratatouille (2007)",
+    "rating": "8",
+    "genre": "Animation|Comedy|Family",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Reilly: Ace of Spies",
+    "rating": "8.3",
+    "genre": "Crime|Drama|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4MjQ3MzU3OF5BMl5BanBnXkFtZTcwMTE3MTgyMQ@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Requiem for a Dream (2000)",
+    "rating": "8.4",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTdiNzJlOWUtNWMwNS00NmFlLWI0YTEtZmI3YjIzZWUyY2Y3XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Reservoir Dogs (1992)",
+    "rating": "8.3",
+    "genre": "Crime|Drama|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc0YWFhMmQtOTFhZC00MzViLTlkNjctMWUzYTI2YWFkNzVlXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Revolt in the Fifth Dimension",
+    "rating": "8.2",
+    "genre": "Animation|Adventure|Family",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODgzNTMyNDY5M15BMl5BanBnXkFtZTcwOTk3NzUyMQ@@._V1_UY268_CR4,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Rocky (1976)",
+    "rating": "8.1",
+    "genre": "Drama|Sport",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5MDMzODUyOF5BMl5BanBnXkFtZTcwMTQ3NTMyNA@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Roman Holiday (1953)",
+    "rating": "8.1",
+    "genre": "Comedy|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTE2MDM4MTMtZmNkZC00Y2QyLWE0YjUtMTAxZGJmODMxMDM0XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Room (2015)",
+    "rating": "8.2",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE4NzgzNzEwMl5BMl5BanBnXkFtZTgwMTMzMDE0NjE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Rudolph the Red-Nosed Reindeer (1964)",
+    "rating": "8.1",
+    "genre": "Animation|Adventure|Comedy",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYjdjZjkyYjUtOWJiZC00ZTE2LTk4MDktZjliOTk5ZDk5ZTZhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Rush (2013)",
+    "rating": "8.1",
+    "genre": "Action|Biography|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOWEwODJmZDItYTNmZC00OGM4LThlNDktOTQzZjIzMGQxODA4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Saving Private Ryan (1998)",
+    "rating": "8.6",
+    "genre": "Drama|War",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY268_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Scarface (1983)",
+    "rating": "8.3",
+    "genre": "Crime|Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjAzOTM4MzEwNl5BMl5BanBnXkFtZTgwMzU1OTc1MDE@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Secrets & Lies (1996)",
+    "rating": "8",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BY2QzMTIxNjItNGQyNy00MjQzLWJiYTItMzIyZjdkYjYyYjRlXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Sense & Sensibility",
+    "rating": "8.1",
+    "genre": "Drama|Romance",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc4MDQ4ODU1NF5BMl5BanBnXkFtZTgwNjAyODkwMzE@._V1_UY268_CR87,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Shakespeare's Globe: Henry V (2013)",
+    "rating": "8.1",
+    "genre": "Comedy|Drama|History",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDI1NmU1NGQtZjY2ZS00ZTQzLWFkZDMtM2YzNmJkZTRhMzE0XkEyXkFqcGdeQXVyMTQ0MzMwNQ@@._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Shaun of the Dead (2004)",
+    "rating": "8",
+    "genre": "Comedy|Horror",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2NjA0NDk0NV5BMl5BanBnXkFtZTcwOTA0OTQzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Ship of Theseus (2012)",
+    "rating": "8.1",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5Njc1NjkxMl5BMl5BanBnXkFtZTgwNTkzNTQwMDE@._V1_UY268_CR1,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Short Term 12 (2013)",
+    "rating": "8",
+    "genre": "Drama",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTEwNjE2OTM4NDZeQTJeQWpwZ15BbWU3MDE2MTE4OTk@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Shutter Island (2010)",
+    "rating": "8.1",
+    "genre": "Mystery|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxMTIyNzMxMV5BMl5BanBnXkFtZTcwOTc4OTI3Mg@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "The Thing (1982)",
+    "rating": "8.2",
+    "genre": "Horror|Mystery|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "What Ever Happened to Baby Jane? (1962)",
+    "rating": "8.1",
+    "genre": "Drama|Horror|Thriller",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZmI0M2VmNTgtMWVhYS00Zjg1LTk1YTYtNmJmMjRkZmMwYTc2XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "Threads (1984)",
+    "rating": "8.1",
+    "genre": "Drama|Horror|Sci-Fi",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4ODU5NzI5M15BMl5BanBnXkFtZTYwMTc3NDY5._V1_UY268_CR2,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "The Blue Elephant (2014)",
+    "rating": "8.3",
+    "genre": "Drama|Horror|Mystery",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNDkxMzk2ODU4N15BMl5BanBnXkFtZTgwNTM4NjIzMjE@._V1_UY268_CR3,0,182,268_AL_.jpg"
+  },
+  {
+    "title": "The Shining (1980)",
+    "rating": "8.4",
+    "genre": "Drama|Horror",
+    "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
+  }
+]

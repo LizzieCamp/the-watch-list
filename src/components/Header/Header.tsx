@@ -11,7 +11,7 @@ type HeaderProps = {
   button: (a: any) => void;
 };
 
-export const Header = ({ searched, handleQuery }: HeaderProps) => {
+export const Header = ({ searched, handleQuery, button }: HeaderProps) => {
   const [userInput, setUserInput] = useState("");
 
   const handleSearchInput = (input: any) => {
@@ -54,6 +54,7 @@ export const Header = ({ searched, handleQuery }: HeaderProps) => {
             placeholder="Search Movies"
             onChange={(e) => handleSearchInput(e.target.value)}
             onKeyUp={search}
+            autoComplete="off"
           />
           <a href="#" className="search-btn">
             <i className="fas fa-search"></i>
@@ -71,6 +72,8 @@ export const Header = ({ searched, handleQuery }: HeaderProps) => {
                 genre={genreSplit(item)}
                 poster={item.poster}
                 rating={item.rating}
+                button={button}
+                message="Favourite"
               />
             ))}
           </div>
@@ -82,6 +85,8 @@ export const Header = ({ searched, handleQuery }: HeaderProps) => {
               poster={searched.poster}
               rating={searched.rating}
               genre={genreSplit(searched)}
+              button={button}
+              message="Favourite"
             />
           </div>
         )}
