@@ -7,7 +7,7 @@
   flex-direction: column;
   top: 0;
   background-color: black;
-  
+
   @media (min-width: 1024px) {
     justify-content: space-between;
     flex-direction: row;
@@ -44,18 +44,21 @@
 }
 
 .search-btn {
-  color: black;
-  float: right;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.4s;
-  cursor: pointer;
-  text-decoration: none;
+  display: none;
+  @media (min-width: 1024px) {
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+  }
 }
 
 .search-text {
